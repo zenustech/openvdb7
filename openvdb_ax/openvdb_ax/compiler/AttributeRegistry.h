@@ -1,3 +1,4 @@
+#define NOMINMAX
 // Copyright Contributors to the OpenVDB Project
 // SPDX-License-Identifier: MPL-2.0/
 

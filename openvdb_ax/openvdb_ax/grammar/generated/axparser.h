@@ -1,3 +1,4 @@
+#define NOMINMAX
 /* A Bison parser, made by GNU Bison 3.0.5.  */
 
 /* Bison interface for Yacc-like parsers in C
