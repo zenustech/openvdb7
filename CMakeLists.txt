@@ -105,7 +105,7 @@ option(USE_IMATH_HALF [=[
 Use the definiton of half floating point types from the Imath library. If OFF, the embedded definition provided
 by OpenVDB is used. If OPENVDB_BUILD_CORE is OFF, CMake attempts to query the located openvdb build configuration
 to select the correct half support. You may set this to on to force Imath half to be used if you know it to be
-required.]=] OFF)
+required.]=] ON)
 cmake_dependent_option(OPENVDB_DISABLE_BOOST_IMPLICIT_LINKING
   "Disable the implicit linking of Boost libraries on Windows" ON "WIN32" OFF)
 option(USE_CCACHE "Build using Ccache if found on the path" ON)
